@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+@font-face {
+    font-family: soleil;
+    src: url(../fonts/soleil.ttf);
+  }
+  @font-face {
+    font-family: mont;
+    src: url(../fonts/mont.ttf);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    /* font-family: 'Jost', sans-serif; */
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+.custom-text-primary {
+    color: #2665d9;
+}
+.custom-text-secondary {
+    color: #fea406;
+}
+.custom-bg-primary {
+    background: #2665d9;
+}
+.custom-bg-secondary {
+    background: #fea406;
+}
+h2 {
+    font-size: 31px !important;
+    font-weight: 600;
+    line-height: 45px !important;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 22px !important;
+    font-weight: 500;
+    line-height: 30px !important;
+}
+a {
+    text-decoration: none;
+    font-weight: 20px;
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    font-size: 18px !important;
+    line-height: 24px;
+    font-weight: 400;
+     color: #808080;
+}
+.btn-custom-dark,
+.btn-custom-light {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+     border: 2px solid #FEA406; 
+     border: 2px solid #000; 
+    background: transparent;
+    color: #000;
+    border-radius: 0;
+    position: relative;
+    width: 200px;
+    padding: 10px 20px;
+    border: 0;
+    transition: .3s;
+    overflow: hidden;
+    z-index: 99;
+}
+.btn-custom-light {
+    color: #fff;
+    border-color: #fff;
+}
+.btn-custom-dark:hover,
+.btn-custom-light:hover {
+    color: rgb(254, 164, 6) !important;
+}
+.btn-custom-dark::before,
+.btn-custom-light::before {
+    content: "";
+    width: 70%;
+    height: 0%;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .4s;
+}
+.btn-custom-dark::before {
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+}
+.btn-custom-dark:hover::before,
+.btn-custom-light:hover::before  {
+    width: 100%;
+    height: 100%;
+    border-color: rgb(254, 164, 6);
+    transition: .4s;
+}
+.btn-custom-dark::after,
+.btn-custom-light::after {
+    content: "";
+    width: 70%;
+    height: 0%;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+}
+.btn-custom-dark::after {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.btn-custom-dark:hover::after,
+.btn-custom-light:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: rgb(254, 164, 6);
+    transition: .4s;
+}
+.cp {
+    padding: 50px 0;
+}
+
+/* gloabl end */
+/* header start  */
+.custom-navbar {
+    padding: 10px 0 20px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 999;
+}
+.custom-nav li {
+    position: relative;
+    transition: .4s;
+    padding: 12px 10px 20px;
+}
+
+.custom-nav li a {
+    font-size: 18px;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: #000;
+}
+.custom-nav li:hover a {
+    color: #2665D9;
+}
+.custom-nav li .dropdown {
+    position: absolute;
+    text-align: left;
+    width: 0px;
+    list-style: none;
+    left: 0;
+    top: -20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .1);
+    visibility: hidden;
+    opacity: 0;
+    transition: top .5s, opacity .4s;
+    z-index: -99;
+    overflow: hidden;
+}
+.custom-nav li .dropdown li {
+    padding: 14px 20px;
+    border-bottom: 1px solid;
+    transition: .3s;
+}
+.custom-nav li .dropdown li:last-child {
+    border-bottom: 0;
+}
+.custom-nav li .dropdown li:hover {
+    background: #fea406;
+    transition: .3s;
+}
+.custom-nav li .dropdown li a {
+    font-size: 16px;
+    color: #000;
+    transition: .3s;
+}
+.custom-nav li .dropdown li:hover a {
+    color: #fff;
+    transition: .3s;
+    padding-left: 20px;
+}
+.custom-nav li:hover .dropdown {
+    width: 300px;
+    top: 60px;
+    visibility: visible;
+    z-index: 999;
+    opacity: 1;
+}
+.custom-nav li:hover i {
+    transform: rotate(180deg);
+    transition: .4s;
+}
+.navbar-brand {
+    max-width: 120px !important;
+}
+.custom-heading {
+    position: relative;
+    text-transform: uppercase;
+}
+.custom-heading::before {
+    content: "";
+    font-size: 100px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    z-index: -9;
+    color: rgba(204, 204, 204, 0.259);
+}
+
+/* header end */
