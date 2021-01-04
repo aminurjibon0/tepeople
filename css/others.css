@@ -646,8 +646,29 @@
 }
 /* training message end */
 /* faq start */
+.faq-card {
+    border: 1px solid rgba(230, 230, 230, .9);
+    margin-bottom: 12px;
+}
+.faq-card .card-body {
+    color: rgba(0, 0, 0, .7);
+}
 .card-header-custom {
-    
+    padding: 12px;
+}
+.card-header-custom button {
+    color: #000;
+    font-weight: 600;
+}
+.card-header-custom button:hover {
+    text-decoration: none;
+    color: #000;
+}
+.card-header-custom button:focus {
+    text-decoration: none;
+}
+.card-body {
+    background: rgb(247, 247, 247);
 }
 /* faq end */
 /* =========== training end ======== */
