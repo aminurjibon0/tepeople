@@ -85,6 +85,10 @@ p {
 .btn-custom-light:hover {
     color: rgb(254, 164, 6) !important;
 }
+.btn-custom-dark:hover,
+.btn-custom-light:hover {
+    color: rgb(254, 164, 6) !important;
+}
 .btn-custom-dark::before,
 .btn-custom-light::before {
     content: "";

@@ -3,7 +3,8 @@
 }
 #serviceBanner,
 #aboutBanner,
-#contactBanner {
+#contactBanner,
+#referenceBanner {
     min-height: 250px;
     background: #cdeaf7;
     padding-top: 120px;
@@ -22,9 +23,15 @@
 #contactBanner {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../img/bg-contact.jpg);
 }
+#referenceBanner {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../img/reference-banner.jpg);
+    background-size: cover;
+    background-position: top center;
+}
 #serviceBanner .row,
 #aboutBanner .row,
-#contactBanner .row {
+#contactBanner .row,
+#referenceBanner .row {
     min-height: 250px;
 }
 .service-banner-text,
@@ -674,4 +681,81 @@
 }
 /* faq end */
 /* =========== training end ======== */
+/* =========== reference start ======== */
+/* portfolio start */
+#portfolios {
+    overflow: auto;
+    min-height: 700px;
+}
+.single-portfolio {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.single-portfolio-img {
+    position: absolute;
+    z-index: -9;
+}
+.single-portfolio-content {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background:  rgba(38, 101, 217, .9);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -430px;
+    padding: 20px 70px 40px 40px;
+    transition: .7s;
+}
+.single-portfolio::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background:  rgba(38, 101, 217, .9);
+    position: absolute;
+    border-radius: 50%;
+    left: -60px;
+    top: -60px;
+    z-index: 99;
+    transition: .9s;
+}
+.single-portfolio:hover::before {
+    width: 50px;
+    height: 50px;
+    left: 30px;
+    top: 30px;
+    transition: .9s;
+}
+.single-portfolio-content h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.single-portfolio-content p {
+    color: #fff;
+    margin-bottom: 40px;
+}
+.single-portfolio:hover .single-portfolio-content {
+    bottom: 0;
+    padding: 140px 80px 40px 40px;
+    transition: .7s;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+}
+.share-social {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.social-share-links {
+    display: inline;
+}
+.social-share-links ul li a {
+    color: #fff;
+}
+.social-share-links ul {
+    display: inline;
+}
+/* portfolio end */
+/* =========== reference end ======== */
 
