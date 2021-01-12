@@ -687,7 +687,6 @@
     overflow: auto;
     min-height: 700px;
     background: url(../img/bg-11.png) repeat;
-    background-size: cover;
     background-position: center center;
 }
 #portfolios .col-md-4 {
