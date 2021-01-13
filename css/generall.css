@@ -165,6 +165,9 @@ p {
 .custom-nav li:hover a {
     color: #2665D9;
 }
+.custom-nav li a.active {
+    color: #2665D9;
+}
 .custom-nav li .dropdown {
     position: absolute;
     text-align: left;

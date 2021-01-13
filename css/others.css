@@ -668,6 +668,8 @@
 .card-header-custom button {
     color: #000;
     font-weight: 600;
+    width: 100%;
+    text-align: left;
 }
 .card-header-custom button:hover {
     text-decoration: none;
