@@ -814,4 +814,65 @@
 }
 /* design technology end */
 /* =========== web design end ======== */
+/* =========== api testing end ======== */
+/* api certificate start */
+#apiCer {
+    background: #FAF8F8;
+}
+.cer-table-row {
+    padding: 8px 0;
+}
+.api-cer-table table {
+    border-top: 6px solid #FEA406;
+    background: #fff;
+}
+/* api certificate end */
+/* api batch start */
+#apiBatch {
+    background: #EBEBF8;
+}
+.api-batch-single {
+    background: #fff;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.api-batch-single .date {
+    font-size: 22px;
+    color: rgb(46, 46, 46);
+}
+.api-batch-single .time {
+    font-size: 16px;
+}
+.phone-icon {
+    background: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+.phone-icon i {
+    color: #fff;
+}
+.api-cta-row {
+    max-width: 280px;
+}
+.api-cta-row .cta-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+.api-cta-row .cta-num {
+    font-size: 16px;
+}
+/* api batch end */
+/* course table start */
+.course-table-title {
+    background: #FEA406;
+    color: #fff;
+}
+/* course table end */
+/* =========== api testing end ======== */
+
 
