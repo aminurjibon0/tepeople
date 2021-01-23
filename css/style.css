@@ -1,3 +1,36 @@
+.btn-custom-login {
+  background: #fea406;
+  color: #fff;
+}
+/* signup start */
+#signupForm .modal-dialog {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+#signupForm .modal-content {
+  padding: 40px 30px;
+}
+#signup .form-group {
+  padding: 4px 0 !important;
+}
+#signup input {
+  padding: 8px 10px !important;
+}
+.btn-submit {
+  background: #fea406;
+  color: #fff;
+}
+.signup-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.login-content {
+  background: #00acee;
+  padding: 60px 10px;
+}
+/* signup end */
 /*header start*/
 /* .home-header ul li a {
     color: #fff;

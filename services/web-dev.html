@@ -55,7 +55,12 @@
                             <li class="list-inline-item">
                                 <a href="../contact.html">Contact Us</a>
                             </li>
-            
+                            <li class="list-inline-item">  
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-custom-login" data-toggle="modal" data-target="#signupForm">
+                                    Login
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -217,7 +222,72 @@
         </div>
     </section>
     <!-- designTech end -->
-
+<!-- signup/login start -->
+<section id="signup">
+        
+    <!-- Modal -->
+    <div class="modal fade" id="signupForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="btn signup-close" data-dismiss="modal">X</button>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="text-center">REGISTER NOW</h2>
+                        <form action="/">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="E-Mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Password">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Repeat Your Password">
+                            </div>
+                            <div class="form-group">
+                                <select name="course" id="courseSelect" class="form-control">
+                                    <option value="none">Select the course you are registering for</option>
+                                    <option value="API Testing">API Testing</option>
+                                    <option value="Java Testing">Java Testing</option>
+                                    <option value="Saffing Testing">Saffing Testing</option>
+                                    <option value="IT Training">IT Training</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="term" class="custom-checkbox"> BY CLICKING THE REGISTER BUTTON YOU AGREE TO OUR TERMS & CONDITIONS
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Register" class="btn btn-block btn-submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                        <div class="login-content">
+                            <h2 class="text-center">Already Registered? <br />Signup Now</h2>
+                            <form action="/">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-Mail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Repeat Your Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Register" class="btn btn-block btn-submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- signup/login end -->
 
     <!-- footer start -->
     <section id="footer">
