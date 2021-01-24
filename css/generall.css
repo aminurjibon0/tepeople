@@ -142,12 +142,11 @@ p {
 /* gloabl end */
 /* header start  */
 .custom-navbar {
-    padding: 10px 0 20px;
     width: 100%;
     margin: 0 auto;
-    height: 100px;
-    margin-bottom: -100px;
+    min-height: 80px;
     position: relative;
+    margin-bottom: -100px;
     z-index: 999;
 }
 .custom-nav li {
@@ -234,5 +233,26 @@ p {
     z-index: -9;
     color: rgba(204, 204, 204, 0.259);
 }
+
+/* Style the header */
+#header {
+    overflow: auto;
+    background: #fff;
+    transition: .4s;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    transition: .4s;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    transition: .4s;
+  }
 
 /* header end */
