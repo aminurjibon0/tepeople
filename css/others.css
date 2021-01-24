@@ -86,30 +86,34 @@
 }
 .bg-custom{
     background: rgba(247, 247, 247, 0.9);
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 30px;
     min-height: 400px;
 }
 .dev-left-inner {
     padding-right: 70px;
-    width: 600px;
+    width: 550px;
 }
-.dev-right-inner{
+.dev-right-inner {
     margin-top: 50px;
-    margin-left: -20px;
+    margin-left: 0px;
     box-shadow: 0px 0px 3px 1px #eaeaea;
-    padding: 40px 50px 60px;
+    padding: 30px 20px 50px;
     width: 600px;
 }
 .dev-left-inner p{
+    line-height: 28px;
     border-left:1px solid #b9b9b9;
     margin-left: 30px;
     padding-left: 15px;
 }
+.dev-right-inner p {
+    font-size: 15px !important;
+}
 .box{
     background: #fff;
-    padding: 30px;
+    padding: 20px;
     min-height: 400px;
 }
 .box-icon {
