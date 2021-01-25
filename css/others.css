@@ -1,6 +1,9 @@
 .custom-navbar {
     background: #fff;
 }
+.custom-nav li a.active {
+    color: #2665d9;
+}
 #serviceBanner,
 #aboutBanner,
 #contactBanner,
@@ -22,6 +25,9 @@
 }
 #contactBanner {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../img/bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 #referenceBanner {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../img/reference-banner.jpg);
@@ -167,6 +173,9 @@
     box-shadow: 2px 1px 8px rgba(254, 164, 6, .4);
     z-index: 9999;
     overflow: hidden;
+}
+.single-training p {
+    font-size: 16px !important;
 }
 .single-training::before {
     content: "";

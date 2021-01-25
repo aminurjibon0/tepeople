@@ -771,4 +771,7 @@
 .footer-col ul li a i {
   margin-right: 10px;
 }
+.footer-copy-row {
+  border-top: 1px solid rgb(224, 224, 224);
+}
 /* footer end */
