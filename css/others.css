@@ -933,5 +933,30 @@
 }
 /* course table end */
 /* =========== api testing end ======== */
+/* =========== it-trainging end ======== */
+/* it start */
+.it-content {
+    padding: 42px 0;
+    padding-left: 100px;
+}
+/* it end */
+/* facilities start */
+.fa-single {
+    text-align: center;
+    background: #fff;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    min-height: 230px;
+}
+.fa-icon {
+    max-width: 80px;
+    margin: 0 auto 20px;
+}
+.fa-single h3 {
+    font-size: 20px;
+}
+/* facilities end */
+/* =========== it-training end ======== */
+
 
 
