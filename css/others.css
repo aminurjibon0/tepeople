@@ -868,6 +868,9 @@
 #apiCer {
     background: #FAF8F8;
 }
+.api-content {
+    padding-left: 100px;
+}
 .cer-table-row {
     padding: 8px 0;
 }
@@ -946,6 +949,16 @@
     font-size: 20px;
 }
 /* facilities end */
+/* expert start */
+#expert {
+    background: url(../img/tep-home-footer-background.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+.api-content {
+}
+/* expert end */
 /* =========== it-training end ======== */
 
 
