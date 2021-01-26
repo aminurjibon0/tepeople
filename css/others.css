@@ -720,6 +720,16 @@
 .card-body {
     background: rgb(247, 247, 247);
 }
+.faq-list li {
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 30px;
+}
+.faq-list li i {
+    position: absolute;
+    left: -30px;
+    top: 3px;
+}
 /* faq end */
 /* =========== training end ======== */
 /* =========== reference start ======== */
