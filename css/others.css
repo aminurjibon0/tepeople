@@ -581,80 +581,48 @@
 .module-single {
     min-height: 300px;
     position: relative;
+    background: #fbfce3;
+    border: 1px solid #f4f5d0;
+    border-radius: 10px;
 }
-.module-single-1 {
-    background: url(../img/training-1.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
+.module-single .module-header {
+    padding: 30px 0;
+    background:  #f4f5d0;
 }
-.module-single::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0);
-    transition: .3s;
+.module-content {
+    padding: 0 20px 30px;
 }
-.module-single:hover::before {
-    background: rgba(0, 0, 0, .3);
-    transition: .3s;
+.module-content ul {
+    max-width: 260px;
+    margin: 0 auto 30px;
 }
-.module-link {
-    position: absolute;
-    width: 200px;
-    right: 0;
-    bottom: 20px;
+.module-content ul li {
+    margin-bottom: 10px;
 }
-.module-link-text {
-    padding: 7px 10px 7px 20px;
-    background: rgba(0, 0, 0, .6);
-    position: relative;
+.module-content i {
+    margin-right: 10px;
 }
-.module-link-text::before {
-    content: "";
-    width: 0;
-    height: 100%;
-    background: #fff;
-    position: absolute;
-
-    left: 0;
-    top: 0;
-    transition: .3s;
-}
-.module-link:hover .module-link-text::before {
-    width: 100%;
-    transition: .3s;
-}
-.module-link-text p {
-    font-size: 14px !important;
-    color: #fff !important;
-    position: relative;
-    z-index: 99;
-    transition: .3s;
-    margin-left: 0;
-}
-/* .module-link:hover .module-link-text {
-    background: #fff;
-    color: #000 !important;
-} */
-.module-link:hover .module-link-text p {
-    color: #000 !important;
-    margin-left: 30px;
-    transition: .3s;
-
-}
-.module-link-angle {
-    background: #fff;
-    padding: 7px 5px 7px 0px;
+.module-single h4 {
+    font-size: 20px;
+    font-weight: 500;
     text-align: center;
 }
-.module-link-angle i {
-    font-size: 20px;
+.module-icon {
+    width: 90px;
+    height: 90px;
+    background: #fadaa3;
+    border: 10px solid #f8c875;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20px auto;
 }
+.module-single h3 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 /* module end */
 /* training program start */
 #program {
@@ -670,6 +638,9 @@
     padding-top: 60px;
     position: relative;
     margin-bottom: 30px;
+}
+.program-content {
+    min-height: 250px;
 }
 .program-single .btn-custom-line {
     font-size: 16px !important;
