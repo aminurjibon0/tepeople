@@ -745,64 +745,32 @@
 }
 .single-portfolio {
     position: relative;
-    height: 400px;
     overflow: hidden;
     margin-bottom: 30px;
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+}
+.portfolio-md {
+    min-height: 400px;
+}
+.portfolio-sm {
+    min-height: 200px;
+}
+.portfolio-sm h3 {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
 }
 .single-portfolio-img {
-    position: absolute;
-    z-index: 9;
 }
 .single-portfolio-content {
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background:  linear-gradient(to top, rgba(38, 101, 217, .8), rgba(254, 164, 6, .8));
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -330px;
-    padding: 20px 30px 30px 30px;
-    transition: .7s;
-    z-index: 99;
+    padding-top: 60px;
+    color: #000;
+    padding: 10px 15px;
 }
-.single-portfolio-content h3 {
-    margin-bottom: 30px;
+#portfolio a:hover h3 {
+    color: #FEA406;
 }
-.single-portfolio-content p {
-    color: #fff;
-    margin-bottom: 20px;
-}
-.single-portfolio:hover .single-portfolio-content {
-    bottom: 0;
-    padding: 100px 20px 30px 30px;
-    transition: .7s;
-    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
-}
-.single-portfolio:hover h3 {
-    margin-bottom: 15px;
-}
-.share-social {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-}
-.social-share-links {
-    display: inline;
-}
-.social-share-links ul li {
-    width: 30px;
-    height: 30px;
-    padding: 3px 0;
-    margin: 0 5px;
-}
-.social-share-links ul li a {
-    color: #fff;
-    padding: 0;
-}
-.social-share-links ul {
-    display: inline;
-}
+
 /* portfolio end */
 /* =========== reference end ======== */
 /* =========== web design end ======== */
