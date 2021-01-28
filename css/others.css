@@ -762,11 +762,10 @@
 .portfolio-sm {
     min-height: 200px;
 }
-.portfolio-sm h3 {
-    font-size: 16px !important;
+.portfolio-sm .single-portfolio-content h3 {
+    font-size: 18px !important;
     line-height: 1.4 !important;
-}
-.single-portfolio-img {
+    font-weight: 600;
 }
 .single-portfolio-content {
     padding-top: 60px;
@@ -930,10 +929,30 @@
     background-position: center center;
     padding: 100px 0;
 }
-.api-content {
-}
+
 /* expert end */
 /* =========== it-training end ======== */
+/* single blog start */
+#blog {
+    padding: 100px 60px;
+}
+.blog-content h1 {
+    margin: 20px 0;
+}
+.blog-content h3 {
+    font-weight: 600 !important;
+    margin-bottom: 20px;
+}
+.blog-content .text-italic {
+    font-style: italic;
+}
+.blog-content p {
+    line-height: 2;
+}
+.blog-content strong {
+    color: rgb(39, 39, 39);
+}
+/* single blog end */
 
 
 
