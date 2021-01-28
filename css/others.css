@@ -579,7 +579,7 @@
     padding: 50px 0;
 }
 .module-single {
-    min-height: 300px;
+    min-height: 650px;
     position: relative;
     background: #fbfce3;
     border: 1px solid #f4f5d0;
@@ -601,6 +601,12 @@
 }
 .module-content i {
     margin-right: 10px;
+}
+.module-content a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .module-single h4 {
     font-size: 20px;
