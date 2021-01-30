@@ -24,10 +24,14 @@
   position: absolute;
   right: 10px;
   top: 10px;
+  z-index: 999;
 }
 .login-content {
   background: #00acee;
   padding: 60px 10px;
+}
+#signupForm .small {
+  font-size: 14px;
 }
 /* signup end */
 /*header start*/

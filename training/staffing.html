@@ -92,7 +92,7 @@
                         <h2 class="text-uppercase">Staffing</h2>
                         <p class="mb-4">TEP solutions have a strong connection with tech industry recruiters and provide tech people in the industry as our mission is “Providing solutions to our partners and providing professionals to the IT industry.” We try to guide and train people so that they become testers, developers, analysts, digital marketers and provide the best quality of services.
                         </p>
-                        <button type="button" class="btn btn-custom-dark" data-toggle="modal" data-target="#signupForm">Register NOW</button>
+                        <button type="button" class="btn btn-custom-dark" data-toggle="modal" data-target="#registerForm">Register NOW</button>
                     </div>
                 </div>
                 <div class="col-md-6 px-0">
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-right">
-                    <button type="button" class="btn btn-custom-dark" data-toggle="modal" data-target="#signupForm">ENROLL NOW</button>
+                    <button type="button" class="btn btn-custom-dark" data-toggle="modal" data-target="#registerForm">ENROLL NOW</button>
                 </div>
             </div>
         </div>
@@ -261,7 +261,7 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <input type="checkbox" name="term" class="custom-checkbox"> BY CLICKING THE REGISTER BUTTON YOU AGREE TO OUR TERMS & CONDITIONS
+                                <input type="checkbox" name="term" class="custom-checkbox"> <span class="small">BY CLICKING THE REGISTER BUTTON YOU AGREE TO OUR TERMS & CONDITIONS</span>
                             </div>
                             <div class="form-group">
                                 <input type="submit" value="Register" class="btn btn-block btn-submit">
@@ -270,7 +270,7 @@
                     </div>
                     <div class="col-md-6 align-self-center">
                         <div class="login-content">
-                            <h2 class="text-center">Already Registered? <br />Signup Now</h2>
+                            <h2 class="text-center">Already Registered? <br />Sign In Now</h2>
                             <form action="/">
                                 <div class="form-group">
                                     <input type="email" class="form-control" placeholder="E-Mail">
@@ -290,6 +290,57 @@
     </div>
 </section>
 <!-- signup/login end -->
+<section id="register">
+        
+    <!-- Modal -->
+    <div class="modal fade" id="registerForm" tabindex="-1" role="dialog" aria-labelledby="registerForm" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="btn signup-close" data-dismiss="modal">X</button>
+                <div class="row">
+                    <div class="col-md-12 p-5">
+                        <h2 class="text-center">REGISTER NOW</h2>
+                        <form action="/">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="E-Mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <select name="session" id="session" class="form-control">
+                                    <option value="">Choose a session</option>
+                                    <option value="2 week">2 weeks</option>
+                                    <option value="2 week">6 weeks</option>
+                                    <option value="2 week">10 weeks</option>
+                                    <option value="2 week">14 weeks</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="course" id="courseSelect" class="form-control">
+                                    <option value="none">Select the course you are registering for</option>
+                                    <option value="API Testing">API Testing</option>
+                                    <option value="Java Testing">Java Testing</option>
+                                    <option value="Saffing Testing">Saffing Testing</option>
+                                    <option value="IT Training">IT Training</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="term" class="custom-checkbox"> <span class="small">BY CLICKING THE REGISTER BUTTON YOU AGREE TO OUR TERMS & CONDITIONS</span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Register" class="btn btn-block btn-submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- footer start -->
     <section id="footer">
         <div class="container footer-container">
@@ -313,7 +364,7 @@
                 <div class="col-md-3 footer-col">
                     <div class="footer-heading">Services</div>
                     <ul class="list-unstyled">
-                        <li class="list-item"><a href="../services/api-testing.html">API Testing</a></li>
+                        <li class="list-item"><a href="../services/api-testing.html">API Development</a></li>
                         <li class="list-item"><a href="../services/java.html">Java Programming</a></li>
                         <li class="list-item"><a href="../services/qa-testing.html">QA & Software Testing</a></li>
                         <li class="list-item"><a href="../services/web-dev.html">Web Development</a></li>
