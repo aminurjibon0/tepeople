@@ -953,6 +953,35 @@
     color: rgb(39, 39, 39);
 }
 /* single blog end */
+/* single training page start */
+#singleTraining {
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+.train-left-content-list li {
+    padding: 12px 15px;
+    background: #2665d911;
+    border-bottom: 1px solid #3d6ec917;
+}
+.train-left-content-list li i {
+    margin-right: 8px;
+}
+.list-inner-right {
+    color: #2665d9;
+}
+#singleTraining .d-block {
+    width: 100%;
+}
+.btn-custom-dark-block {
+    background: #2665d9;
+    color: #fff;
+    padding: 12px;
+}
+.btn-custom-dark-block:hover {
+    color: #fff;
+    background: #1954c2;
+}
+/* single training page end */
 
 
 
