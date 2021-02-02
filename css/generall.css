@@ -212,9 +212,12 @@ p {
     z-index: 999;
     opacity: 1;
 }
-.custom-nav li:hover i {
+.custom-nav li:hover .caret-icon {
     transform: rotate(180deg);
     transition: .4s;
+}
+.custom-nav .btn-custom-search:hover i {
+    transform: none;
 }
 .navbar-brand {
     max-width: 120px !important;
@@ -253,6 +256,9 @@ p {
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     transition: .4s;
+  }
+  #searchForm .modal-content {
+      padding: 80px 0;
   }
 
 /* header end */

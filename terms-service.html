@@ -65,6 +65,12 @@
                                     Login
                                 </button>
                             </li>
+                            <li class="list-inline-item">  
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-custom-search" data-toggle="modal" data-target="#searchForm">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +89,7 @@
         </div>
     </section>
     <!-- banner end -->
-    <div id="terms">
+    <div id="terms" class="cp">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 mx-auto">
@@ -91,7 +97,7 @@
                         <h3>Terms and Conditions</h3>
                         <p>This is a Training Services Agreement (“Agreement”) by and between you, the customer receiving training services (“Customer”), and TEP Solution and Consulting Inc, a US corporation having its principal place of business at 555 Preakness Ave, suite 217. Totowa, NJ 07512. USA. This Agreement is effective upon Customer’s signature or payment for or usage of the Training Services or Materials, each of which constitutes Customer’s agreement to these terms and conditions.</p>
                         <p>Training Services. This Agreement applies to training courses, program or certification testing offered by TEP Solution and provided to Customer’s designated attendees (the “Attendees”). The Training Services may include the following: </p>
-                        <ol>
+                        <ol class="ml-5">
                             <li>Classroom training at TEP’s designated location (“Classroom Training”); </li>
                             <li>Onsite training at Customer’s designated location (“Onsite Training”); </li>
                             <li>Instructor-led remote training (“Virtual Classroom Training”); </li>
@@ -123,7 +129,16 @@
                         <h3>PROPRIETARY RIGHTS</h3>
                         <p>Notwithstanding anything to the contrary, TEP Solution retains ownership of all copyright and other intellectual property rights in the Training Services and Materials, including any documentation, data, technical information and know-how provided to Customer or its Attendees. Customer agrees that it must obtain TEP Solution’s prior written consent before it may: (i) copy any of TEP Solution’s copyrighted material; (ii) use any recording equipment (including, but not limited to, audio recorders, video recorders, and cameras) during the Training Services; or (iii) use TEP Solution’s trademarks, trade names, or other designations in any promotion or publication.</p>
                         <h3>NONDISCLOSURE</h3>
-                        <p></p>
+                        <p>A.	Confidential Information. “Confidential Information” means information belonging to or in the possession or control of a party (the “Disclosing Party”), its customers or its suppliers which is of a confidential, proprietary, or trade secret nature, including without limitation all business information, technological information, intellectual property, Exam questions, software, and other information related to Disclosing Party’s business, technology, products, customers, personnel or finances, that the other party (the “Receiving Party”) has access to under this Agreement and that are not readily available to the general public (collectively, “Confidential Information”). As between Disclosing Party and Receiving Party, Confidential Information will remain the property of Disclosing Party. Receiving Party will preserve and protect all Disclosing Party Confidential Information and Training Services Agreement 3 Confidential and Proprietary TEP Solution. Revised 01 March 2017 Receiving Party will not disclose the existence, source, or content of Confidential Information, except to its employees or contractors with a need to know and under obligation of confidentiality at least as stringent as under this Agreement. Neither party will copy or reverse-engineer any Confidential Information.</p>
+                        <h3>Media Release Permission:</h3>
+                        <p>This agreement will used as consent from the student that they are aware and give permission to be 
+                            Interviewed, photographed, and/or videotaped by TEP Solution/QAeLearn or its representatives in connection with IT Training. student understand and agree that the text, photographs, and/or videotapes thereof containing their name, likeness, and voice, including transcripts thereof, may be used in the production of instructional, promotional materials, and for other purposes that TEP Solution/QAeLearn deems appropriate and that such materials may be distributed to the public and displayed publicly one or more times and in different formats, including but not limited to, websites, cablecasting, broadcasting, and other forms of transmission to the public. Student also understand that this permission to use the text, photographs, videotapes, and name in such material is not limited in time and that I will not receive any compensation for granting this permission. 
+                            I understand that TEP Solution/QAeLearn has no obligation to use their name, likeness, or voice in the materials it produces, but if TEP Solution/QAeLearn so decides to use them, I acknowledge that it may edit such materials. I hereby waive the right to inspect or approve any such use, either in advance or following distribution or display. 
+                            I hereby unconditionally release TEP Solution/QAeLearn and its representatives from any and all claims and demands arising out of the activities authorized under the terms of this agreement. 
+                            </p>
+                            <h3>TERMINATION </h3>
+                            <p>This Agreement will terminate upon completion of the Training Services or upon cancellation in accordance with this Agreement. TEP Solution may cancel the Training Services if minimum enrollment requirements are not met, the instructors or engineers are unable to attend, there are technical difficulties, or for any other reason. In such case: (i) TEP Solution will make reasonable efforts to notify Customer prior to the scheduled date of the Training Services; and (ii) TEP Solution will only be responsible for refunding the fees for the Training Services under this Agreement. TEP Solution reserves the right to cancel an Attendee’s registration if payment has not been received prior to the class start date. The termination of this Agreement will not relieve Customer from complying with any provisions of this Agreement that contemplate performance subsequent to termination (including, but not limited to, Customer’s confidentiality obligations).</p>
+                            <p>I hereby acknowledge and certify that I have read understand this agreement and agree to all provisions thereof.</p>
                     </div>
                 </div>
             </div>
@@ -195,6 +210,30 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="searchForm" tabindex="-1" role="dialog" aria-labelledby="searchForm" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="btn signup-close" data-dismiss="modal">X</button>
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <div class="logo mx-auto" style="max-width: 120px;">
+                            <img src="img/logo.png" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="text-center">Search your courses</h2>
+                        <form action="/">
+                            <div class="form-group">
+                                <input type="search" class="form-control" placeholder="Search...">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Search" class="btn btn-block btn-submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- signup/login end -->
     <!-- footer start -->
@@ -212,7 +251,7 @@
                     <ul class="list-unstyled">
                         <li class="list-item"><a href="../reference.html">Blog</a></li>
                         <li class="list-item"><a href="../contact.html">Contact Us</a></li>
-                        <li class="list-item"><a href="#">Terms of Use</a></li>
+                        <li class="list-item"><a href="ter">Terms of Use</a></li>
                         <li class="list-item"><a href="#">Privacy Statement</a></li>
                     </ul>
                 </div>

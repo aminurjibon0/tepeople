@@ -20,18 +20,18 @@
     <nav class="custom-navbar custom-text-secondary home-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="navbar-text">
                         <a href="index.html" class="navbar-brand">
                         <img src="img/logo.png" class="img-fluid" class="brand-logo" alt="">
                     </a>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-10">
                     <div class="custom-nav">
                         <ul class="list-inlinte mb-0 text-right">
                             <li class="list-inline-item">
-                                <a href="service.html"><span class="nav-servcie">Services</span> <i class="fas fa-caret-down"></i></a>
+                                <a href="service.html"><span class="nav-servcie">Services</span> <i class="fas fa-caret-down caret-icon"></i></a>
                                 <ul class="dropdown">
                                     <li class="list-item"><a href="services/api-testing.html">API development</a></li>
                                     <li class="list-item"><a href="services/java.html">Java programming</a></li>
@@ -44,7 +44,7 @@
                             </li>
                             <li class="list-inline-item">
                                 <!-- <a href="training.html">Training</a> -->
-                                <a href="training.html"><span class="nav-servcie">Training</span> <i class="fas fa-caret-down"></i></a>
+                                <a href="training.html"><span class="nav-servcie">Training</span> <i class="fas fa-caret-down caret-icon"></i></a>
                                 <ul class="dropdown">
                                     <li class="list-item"><a href="training/it-traning.html">IT Trainings</a></li>
                                     <li class="list-item"><a href="training/staffing.html">Staffing</a></li>
@@ -62,60 +62,18 @@
                                     Login
                                 </button>
                             </li>
+                            <li class="list-inline-item">  
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-custom-search" data-toggle="modal" data-target="#searchForm">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    <header id="header">
-        <nav class="custom-navbar custom-text-secondary home-header">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-4">
-                        <div class="navbar-text">
-                            <a href="index.html" class="navbar-brand">
-                            <img src="img/logo.png" class="img-fluid" class="brand-logo" alt="">
-                        </a>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="custom-nav">
-                            <ul class="list-inlinte mb-0 text-right">
-                                <li class="list-inline-item">
-                                    <a href="service.html"><span class="nav-servcie">Services</span> <i class="fas fa-caret-down"></i></a>
-                                    <ul class="dropdown">
-                                        <li class="list-item"><a href="services/api-testing.html">API development</a></li>
-                                        <li class="list-item"><a href="#">Java programming</a></li>
-                                        <li class="list-item"><a href="services/java.html">QA & Software Testing</a></li>
-                                        <li class="list-item"><a href="services/web-dev.html">Web Development</a></li>
-                                    </ul>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="about.html">Company</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="training.html">Training</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="reference.html">Reference</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
-                                <li class="list-inline-item">  
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-custom-login" data-toggle="modal" data-target="#signupForm">
-                                        Login
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
     <!-- navbar end -->
     <!-- banner start -->
     <section id="banner" class="banner">
@@ -411,6 +369,30 @@
                 </div>
             </div>
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="searchForm" tabindex="-1" role="dialog" aria-labelledby="searchForm" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <button type="button" class="btn signup-close" data-dismiss="modal">X</button>
+                    <div class="row">
+                        <div class="col-md-8 mx-auto">
+                            <div class="logo mx-auto" style="max-width: 120px;">
+                                <img src="img/logo.png" class="img-fluid" alt="">
+                            </div>
+                            <h2 class="text-center">Search your courses</h2>
+                            <form action="/">
+                                <div class="form-group">
+                                    <input type="search" class="form-control" placeholder="Search...">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Search" class="btn btn-block btn-submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- signup/login end -->
     <!-- footer start -->
@@ -428,7 +410,7 @@
                     <ul class="list-unstyled">
                         <li class="list-item"><a href="reference.html">Blog</a></li>
                         <li class="list-item"><a href="contact.html">Contact Us</a></li>
-                        <li class="list-item"><a href="#">Terms of Use</a></li>
+                        <li class="list-item"><a href="terms-service.html">Terms of Use</a></li>
                         <li class="list-item"><a href="#">Privacy Statement</a></li>
                     </ul>
                 </div>
@@ -461,8 +443,6 @@
         </div>
     </section>
     <!-- footer end -->
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <div class="elfsight-app-57349cf0-2dda-431c-a9a9-e5c4d0759d12"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
