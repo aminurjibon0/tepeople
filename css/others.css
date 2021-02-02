@@ -969,6 +969,10 @@
 .train-left-content-list li i {
     margin-right: 8px;
 }
+.train-left-content .btn-custom-dark-block {
+    font-size: 12px;
+    padding: 5px 12px;
+}
 .list-inner-right {
     color: #2665d9;
 }
