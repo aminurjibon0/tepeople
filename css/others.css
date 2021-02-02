@@ -893,6 +893,9 @@
 }
 /* api batch end */
 /* course table start */
+#courseTable {
+    background: rgb(245, 241, 241);
+}
 .course-table-title {
     background: #FEA406;
     color: #fff;

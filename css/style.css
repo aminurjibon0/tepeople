@@ -694,7 +694,47 @@
   .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-next:hover {
     background: #020d26;
   }
-  
+  .testimonial_student {
+    padding: 50px 0;
+  }
+  .testimonial_student .about_content {
+    background: rgb(9, 9, 78);
+    padding: 40px 80px 40px 40px;
+  }
+  .testimonial_student .about_content h2 {
+    color: #fff;
+  }
+  .testimonial_student .about_content p {
+    color: rgb(212, 212, 212);
+    margin-bottom: 30px;
+  }
+  .testimonial_student .about_content a {
+    color: #fff;
+  }
+  .testimonial_student .testimonial_box {
+    background: rgb(243, 233, 233);
+    padding: 50px;
+    margin-left: -100px;
+    margin-top: 50px
+  }
+  .testimonial_student .testimonial_box h6 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #000;
+  }
+  .testimonial_student .testimonial_box span {
+    margin-bottom: 20px;
+    display: block;
+    color: #696969;
+  }
+  .testimonial_student .testimonial_box .owl-nav {
+    margin-top: -20px;
+    padding: 0;
+  }
+  .testimonial_student .testimonial_box p {}
+  .testimonial_student .testimonial_box p {}
+
+
   @media all and (max-width: 991px) {
     .testimonial_section .about_content {
       padding-right: 15px !important;
@@ -726,6 +766,49 @@
     .testimonial_section .testimonial_box .testimonial_container .testimonials .images_box {
       display: none;
     }
+    .testimonial_student {
+      padding: 50px 0;
+    }
+    .testimonial_student .about_content {
+      background: rgb(9, 9, 78);
+      padding: 25px 25px 40px;
+    }
+    .testimonial_student .about_content h2 {
+      color: #fff;
+    }
+    .testimonial_student .about_content p {
+      color: rgb(212, 212, 212);
+      margin-bottom: 30px;
+    }
+    .testimonial_student .about_content a {
+      color: #fff;
+    }
+    .testimonial_student .testimonial_box {
+      background: rgb(243, 233, 233);
+      padding: 30px 20px 20px;
+      margin-left: 0;
+      margin-top: 0
+    }
+    .testimonial_student .testimonial_box h6 {
+      font-size: 24px;
+      margin-bottom: 0px;
+      color: #000;
+    }
+    .testimonial_student .testimonial_box span {
+      margin-bottom: 20px;
+      display: block;
+      color: #696969;
+    }
+    .testimonial_student .testimonial_box .owl-nav {
+      margin-top: -20px;
+      padding: 0;
+    }
+    .testimonial_student .testimonial_box .owl-prev,
+    .testimonial_student .testimonial_box .owl-next {
+      background: #e2e2e2 !important;
+      margin: 0 5px;
+      padding: 0 10px;
+    } 
   }
 /* testimonials end */
 /* footer start */
