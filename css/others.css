@@ -920,9 +920,11 @@
     padding: 30px 20px;
     margin-bottom: 20px;
     min-height: 230px;
+    display: flex;
+    align-items: center;
 }
 .fa-icon {
-    max-width: 80px;
+    max-width: 250px;
     margin: 0 auto 20px;
 }
 .fa-single h3 {
