@@ -900,6 +900,10 @@
     background: #FEA406;
     color: #fff;
 }
+#courseTable button {
+    padding: 4px 10px;
+    font-size: 12px;
+}
 /* course table end */
 /* =========== api testing end ======== */
 /* =========== it-trainging end ======== */
