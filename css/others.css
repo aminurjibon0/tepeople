@@ -989,6 +989,16 @@
     background: #1954c2;
 }
 /* single training page end */
+/* instructor start */
+#help {
+    padding: 50px 0;
+    background: #2665d9;
+    color: #fff;
+}
+#instructor .form-group {
+    margin: 15px 0 !important;
+}
+/* instructor end */
 
 
 

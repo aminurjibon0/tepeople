@@ -23,7 +23,15 @@
 <body>
     <nav class="custom-navbar custom-text-secondary home-header">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center nav-row">
+                <div class="search-form">
+                    <div class="input-group mb-3">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <input type="submit" value="Search" class="btn btn-block btn-submit">
+                        </div>
+                      </div>
+                </div>
                 <div class="col-md-3">
                     <div class="navbar-text">
                         <a href="index.html" class="navbar-brand">
@@ -67,7 +75,7 @@
                             </li>
                             <li class="list-inline-item">  
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-custom-search" data-toggle="modal" data-target="#searchForm">
+                                <button type="button" class="btn btn-custom-search">
                                     <i class="fas fa-search"></i>
                                 </button>
                             </li>
@@ -386,29 +394,6 @@
         </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="searchForm" tabindex="-1" role="dialog" aria-labelledby="searchForm" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="btn signup-close" data-dismiss="modal">X</button>
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <div class="logo mx-auto" style="max-width: 120px;">
-                            <img src="img/logo.png" class="img-fluid" alt="">
-                        </div>
-                        <h2 class="text-center">Search your courses</h2>
-                        <form action="/">
-                            <div class="form-group">
-                                <input type="search" class="form-control" placeholder="Search...">
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" value="Search" class="btn btn-block btn-submit">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <!-- signup/login end -->
     <!-- footer start -->

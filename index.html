@@ -19,7 +19,15 @@
 <body>
     <nav class="custom-navbar custom-text-secondary home-header">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center nav-row">
+                <div class="search-form">
+                    <div class="input-group mb-3">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <input type="submit" value="Search" class="btn btn-block btn-submit">
+                        </div>
+                      </div>
+                </div>
                 <div class="col-md-2">
                     <div class="navbar-text">
                         <a href="index.html" class="navbar-brand">
@@ -64,7 +72,7 @@
                             </li>
                             <li class="list-inline-item">  
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-custom-search" data-toggle="modal" data-target="#searchForm">
+                                <button type="button" class="btn btn-custom-search">
                                     <i class="fas fa-search"></i>
                                 </button>
                             </li>
@@ -270,7 +278,7 @@
                                 <h5>CLIENTS</h5>
                                 <h2>Happy with<strong>Customers & Clients</strong></h2>
                                 <div class="heading_line"><span></span></div>
-                                <p>If you need any industrial solution we are available for you.</p>
+                                <p>We don’t consider our clients as “cash cow” rather we believe they are part of our extended family. We are so lucky that we get the opportunity to work with many small, medium, and big firms and able to contribute to their journey.</p>
                             </div>
                             <a href="contact.html" class="btn-custom-light">Contact Us</a>
                         </div>
@@ -412,29 +420,6 @@
             </div>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="searchForm" tabindex="-1" role="dialog" aria-labelledby="searchForm" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <button type="button" class="btn signup-close" data-dismiss="modal">X</button>
-                    <div class="row">
-                        <div class="col-md-8 mx-auto">
-                            <div class="logo mx-auto" style="max-width: 120px;">
-                                <img src="img/logo.png" class="img-fluid" alt="">
-                            </div>
-                            <h2 class="text-center">Search your courses</h2>
-                            <form action="/">
-                                <div class="form-group">
-                                    <input type="search" class="form-control" placeholder="Search...">
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Search" class="btn btn-block btn-submit">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
     <!-- signup/login end -->
     <!-- footer start -->

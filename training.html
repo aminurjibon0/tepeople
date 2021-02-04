@@ -23,7 +23,15 @@
 <body>
     <nav class="custom-navbar custom-text-secondary home-header">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center nav-row">
+                <div class="search-form">
+                    <div class="input-group mb-3">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <input type="submit" value="Search" class="btn btn-block btn-submit">
+                        </div>
+                      </div>
+                </div>
                 <div class="col-md-3">
                     <div class="navbar-text">
                         <a href="index.html" class="navbar-brand">
@@ -67,7 +75,7 @@
                             </li>
                             <li class="list-inline-item">  
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-custom-search" data-toggle="modal" data-target="#searchForm">
+                                <button type="button" class="btn btn-custom-search">
                                     <i class="fas fa-search"></i>
                                 </button>
                             </li>
@@ -163,7 +171,7 @@
                 <div class="col-md-4">
                     <div class="module-single module-single-1">
                         <div class="module-header">
-                            <h4>LIVE, Self-LED</h4>
+                            <h4>Self-Paced</h4>
                         </div>
                         <div class="module-content">
                             <div class="module-icon">
@@ -211,8 +219,8 @@
                             <img src="img/train-icon.png" class="img-fluid" alt="">
                         </div>
                         <div class="program-content">
-                            <h3 class="mb-3">Software Testing Training</h3>
-                            <p class="mb-4">Software testers are the super heroes in software businesses</p>
+                            <h3 class="mb-3">Advanced Test Automation with Selenium (For Web)</h3>
+                            <p class="mb-4">This course carries all the areas that need to cover to become an advanced level softer taster (QC).</p>
                             <p><a href="training/single-training/software-testing.html" class="btn btn-custom-line">Learn More <i class="fas fa-arrow-right ml-2"></i></a></p>
                         </div>
                         <div class="program-single-footer">
@@ -235,8 +243,8 @@
                             <img src="img/train-icon.png" class="img-fluid" alt="">
                         </div>
                         <div class="program-content">
-                            <h3 class="mb-3">IT Support/Help Desk Analyst</h3>
-                            <p class="mb-4">Everything that will make you an IT support analyst including job placement support</p>
+                            <h3 class="mb-3">Appium - Mobile Automation Course Outline (For Android and iOS)</h3>
+                            <p class="mb-4">In this course, you will get to know about all things related to Appium like Appium installation</p>
                             <p><a href="training/single-training/software-testing.html" class="btn btn-custom-line">Learn More <i class="fas fa-arrow-right ml-2"></i></a></p>
                         </div>
                         <div class="program-single-footer">
@@ -259,8 +267,8 @@
                             <img src="img/train-icon.png" class="img-fluid" alt="">
                         </div>
                         <div class="program-content">
-                            <h3 class="mb-3">Basic Computer Training</h3>
-                            <p class="mb-4">360 degree computer training program</p>
+                            <h3 class="mb-3">Software Manual Testing with Basic Automation Course Outline (For Web)</h3>
+                            <p class="mb-4">The reason behind the popularity of our Software Manual Testing course is its broad and efficient course outline.</p>
                             <p><a href="training/single-training/software-testing.html" class="btn btn-custom-line">Learn More <i class="fas fa-arrow-right ml-2"></i></a></p>
                         </div>
                         <div class="program-single-footer">
@@ -283,8 +291,8 @@
                             <img src="img/train-icon.png" class="img-fluid" alt="">
                         </div>
                         <div class="program-content">
-                            <h3 class="mb-3">Cloud Computing</h3>
-                            <p class="mb-4">Cloud computing has completely changed the business world, so become a "game changer" by learning cloud computing.</p>
+                            <h3 class="mb-3">JAVA Development</h3>
+                            <p class="mb-4">After doing this course properly, you will be able to apply for “Junior Software Developer” jobs.</p>
                             <p><a href="training/single-training/software-testing.html" class="btn btn-custom-line">Learn More <i class="fas fa-arrow-right ml-2"></i></a></p>
                         </div>
                         <div class="program-single-footer">
@@ -307,8 +315,8 @@
                             <img src="img/train-icon.png" class="img-fluid" alt="">
                         </div>
                         <div class="program-content">
-                            <h3 class="mb-3">App Development</h3>
-                            <p class="mb-4">The world has 14 million App developers, do you want to be the next one? We provide world-class training on "App's Development".</p>
+                            <h3 class="mb-3">Microsoft SQL Server DBA</h3>
+                            <p class="mb-4">To become the future SQL Server DBA Manager, you have to store, manage and access data.</p>
                             <p><a href="training/single-training/software-testing.html" class="btn btn-custom-line">Learn More <i class="fas fa-arrow-right ml-2"></i></a></p>
                         </div>
                         <div class="program-single-footer">
@@ -331,8 +339,8 @@
                             <img src="img/train-icon.png" class="img-fluid" alt="">
                         </div>
                         <div class="program-content">
-                            <h3 class="mb-3">Software Development</h3>
-                            <p class="mb-4">Want to become an artist and engineer at the same time? Learn software development as Bill Gates said "Software is a great combination of artistry and engineering".</p>
+                            <h3 class="mb-3">Digital Marketing</h3>
+                            <p class="mb-4">Traditional marketing is going to be a “myth” soon and digital marketing is already considered mainstream marketing.</p>
                             <p><a href="training/single-training/software-testing.html" class="btn btn-custom-line">Learn More <i class="fas fa-arrow-right ml-2"></i></a></p>
                         </div>
                         <div class="program-single-footer">
@@ -606,29 +614,6 @@
         </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="searchForm" tabindex="-1" role="dialog" aria-labelledby="searchForm" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="btn signup-close" data-dismiss="modal">X</button>
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <div class="logo mx-auto" style="max-width: 120px;">
-                            <img src="img/logo.png" class="img-fluid" alt="">
-                        </div>
-                        <h2 class="text-center">Search your courses</h2>
-                        <form action="/">
-                            <div class="form-group">
-                                <input type="search" class="form-control" placeholder="Search...">
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" value="Search" class="btn btn-block btn-submit">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <!-- signup/login end -->
 

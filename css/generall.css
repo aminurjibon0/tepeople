@@ -262,3 +262,17 @@ p {
   }
 
 /* header end */
+/* search form start */
+.nav-row {
+    position: relative;
+}
+.search-form {
+    position: absolute;
+    right: 30px;
+    bottom: -54px;
+    display: none;
+}
+.form-active {
+    display: block;
+}
+/* search form end */
