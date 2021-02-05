@@ -646,7 +646,7 @@
     margin-bottom: 30px;
 }
 .program-content {
-    min-height: 250px;
+    min-height: 270px;
 }
 .program-single .btn-custom-line {
     font-size: 16px !important;
@@ -665,6 +665,10 @@
     position: absolute;
     bottom: 2px;
     z-index: -9;
+}
+.btn-custom-small {
+    font-size: 14px;
+    width: 240px;
 }
 .program-single h3 {
     font-weight: 600;
@@ -929,6 +933,43 @@
 }
 .fa-single h3 {
     font-size: 20px;
+}
+#itBox {
+    background: #EBEBF8;
+}
+#itBox .fa-single {
+    text-align: center;
+    background: #fff;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    min-height: 250px;
+    display: block;
+}
+#itBox .fa-icon {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+.api-batch-single {
+    background: #fff;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.api-batch-single .date {
+    font-size: 22px;
+    color: rgb(46, 46, 46);
+}
+.api-batch-single .time {
+    font-size: 16px;
+}
+.phone-icon {
+    background: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
 }
 /* facilities end */
 /* expert start */
