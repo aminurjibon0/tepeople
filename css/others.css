@@ -1074,6 +1074,9 @@
     max-width: 60px;
     margin: 0 auto;
 }
+#facilities p {
+    line-height: 20px;
+}
 /* facilities end */
 
 
