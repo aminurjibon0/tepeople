@@ -1038,12 +1038,18 @@
 /* single training page end */
 /* instructor start */
 #help {
-    padding: 50px 0;
+    padding: 0 0 50px;
     background: #2665d9;
     color: #fff;
 }
 #instructor .form-group {
     margin: 15px 0 !important;
+}
+.intructor-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(200, 200, 200, .3);
 }
 /* instructor end */
 
