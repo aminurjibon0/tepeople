@@ -533,6 +533,19 @@
     min-height: 200px;
     margin-bottom: 30px;
 }
+#otherOffice {
+    padding: 0 0 40px;
+}
+.address-content {
+    padding: 30px;
+    background: rgba(247, 247, 247, 0.9);
+    border-radius: 8px;
+    min-height: 240px;
+}
+.address-content a {
+    font-size: 20px;
+    font-weight: bold;
+}
 /*form end*/
 /*more details start*/
 #moreDetails {
@@ -1062,6 +1075,7 @@
     margin: 0 auto;
 }
 /* facilities end */
+
 
 
 
