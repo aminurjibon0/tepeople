@@ -1,5 +1,22 @@
 const searchForm = document.querySelector('.search-form');
 const searchBtn = document.querySelector('.btn-custom-search');
+const toggler = document.querySelector('.navbar-toggler-icon');
+const closeBtn = document.querySelector('.btn-close-mobile');
+const mobileNav = document.querySelector('.mobile-nav');
+
+toggler.addEventListener('click', () => {
+    if(mobileNav.classList.contains('mobile-nav-active')) {
+        mobileNav.classList.remove('mobile-nav-active');
+    } else {
+        mobileNav.classList.add('mobile-nav-active');
+    }
+});
+closeBtn.addEventListener('click', () => {
+    mobileNav.classList.remove('mobile-nav-active');
+})
+
+
+
 searchBtn.addEventListener('click', () => {
     if(searchForm.classList.contains('form-active')) {
         searchForm.classList.remove('form-active');

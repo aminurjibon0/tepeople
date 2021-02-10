@@ -260,7 +260,57 @@ p {
   #searchForm .modal-content {
       padding: 80px 0;
   }
-
+  
+  .navbar-mobile {
+    display: none;
+}
+.navbar-toggler-icon {
+    cursor: pointer;
+}
+.navbar-toggler-icon i {
+    font-size: 26px;
+}
+.mobile-header {
+    position: relative;
+}
+.mobile-nav {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    padding: 20px 30px 20px 25px;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    background: rgb(243, 243, 243);
+    overflow-y: auto;
+    transition: .4s;
+}
+.mobile-nav-active {
+    left: 0;
+}
+.mobile-nav ul {
+    padding-top: 20px;
+}
+.mobile-nav ul > li {
+    display: block;
+    padding: 8px 0;
+    text-align: left;
+    border-bottom: 2px solid #fff;
+}
+.btn-close-mobile {
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+.mobile-nav ul li > ul {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.mobile-nav ul li > ul li {
+    border-bottom: 0;
+}
 /* header end */
 /* search form start */
 .nav-row {
